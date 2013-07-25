@@ -1,7 +1,16 @@
-Build.PL
-lib/LWP/Protocol/connect.pm
-lib/URI/connect.pm
-MANIFEST			This list of files
+CHANGES
+LICENSE
+MANIFEST
 META.yml
+Makefile.PL
 README
+dist.ini
+lib/LWP/Protocol/connect.pm
+lib/LWP/Protocol/https/connect.pm
+lib/LWP/Protocol/https/connect/Socket.pm
+lib/URI/connect.pm
+t/author-critic.t
+t/author-google.t
+t/empty-ca-bundle.crt
+t/release-pod-syntax.t
 t/use.t

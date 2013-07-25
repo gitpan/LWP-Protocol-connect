@@ -1,0 +1,85 @@
+==================================================
+Changes from 2012-07-25 00:00:00 +0000 to present.
+==================================================
+
+-----------------------------------------
+version 6.01 at 2013-07-25 10:51:33 +0000
+-----------------------------------------
+
+  Change: 759debe3a2ba5c14a93b7e51bc2a7176c70d62b6
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 12:50:31 +0000
+
+    -remove github stuff 
+
+  Change: eb6ed4de627e14a3e3b0d65ec05fa20868964879
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 12:49:55 +0000
+
+    Merge branch 'master' of
+    https://github.com/benningm/LWP-Protocol-connect 
+
+  Change: da1d65631577a4721b9aad30bdaa97045e4a091b
+  Author: benningm <me@w3r3wolf.de>
+  Date : 2013-07-25 03:46:05 +0000
+
+    Initial commit 
+
+  Change: 3375528a58d3755c94472066718c769836ae207c
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 12:40:32 +0000
+
+    -add .gitignore file 
+
+  Change: f1ab1531fd08e0d7d26bd02194ebe4d5d6ba2c5f
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 12:38:00 +0000
+
+    -new release 6.01 
+
+  Change: abfe878f3309e31dc54db2f48bbafb911f317c9f
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 12:37:01 +0000
+
+    -reorder dzil modules 
+
+  Change: f7063e4f4243267d01c973c6e6bc58d691bbc381
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 12:17:06 +0000
+
+    -added AutoReqs 
+
+  Change: 073131424040865fd247b715f0fcbce9a480ff0a
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 10:58:18 +0000
+
+    -remove coverage test 
+
+  Change: daf7fe89c2d7b401493ad59af6a41db7f3ef49d2
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 10:54:12 +0000
+
+    -more work on dzil build stuff 
+
+  Change: 51082f6853bc984181b80f67c73a337a2208fe38
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 10:52:09 +0000
+
+    -split into one package per file -added test script to check against
+    google servers -more work on dzil build stuff 
+
+  Change: f58233cc74cef9601751f5904029ab1ffe891a62
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 09:34:06 +0000
+
+    -add basic dist:zilla configuration 
+
+  Change: 0f8daa3d7183ef0fe73d73e603e268469249e4f1
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 09:22:59 +0000
+
+    -initial import of module 
+
+================
+End of releases.
+================
