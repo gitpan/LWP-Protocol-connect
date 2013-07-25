@@ -3,7 +3,35 @@ Changes from 2012-07-25 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 6.01 at 2013-07-25 10:51:33 +0000
+version 6.02 at 2013-07-25 11:43:10 +0000
+-----------------------------------------
+
+  Change: cad058e42a673a4716edbff2104fa06e71b05837
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 13:41:26 +0000
+
+    -more dist::zilla configuration 
+
+  Change: a2e1db3d50ffb4ae5e8f628f06b2e18030642557
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 13:39:13 +0000
+
+    -use Git::NextVersion 
+
+  Change: a8b26c29276dc70dfb1dfabe7db378de15e062db
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 13:36:01 +0000
+
+    -set versions using OurPkgVersion 
+
+  Change: 4309752580bd6f8b451136d3b253cdf3510198fa
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-07-25 13:00:50 +0000
+
+    -add metajson/resources to dzil 
+
+-----------------------------------------
+version 6.01 at 2013-07-25 10:50:31 +0000
 -----------------------------------------
 
   Change: 759debe3a2ba5c14a93b7e51bc2a7176c70d62b6

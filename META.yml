@@ -23,4 +23,7 @@ requires:
   base: 0
   strict: 0
   warnings: 0
-version: 6.01
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=LWP-Protocol-connect
+  repository: https://github.com/benningm/LWP-Protocol-connect
+version: 6.02

@@ -3,6 +3,8 @@ package LWP::Protocol::https::connect;
 use strict;
 use warnings;
 
+our $VERSION = '6.02'; # VERSION
+
 require LWP::Protocol::https;
 our @ISA = qw(LWP::Protocol::https);
 LWP::Protocol::implementor('https::connect' => 'LWP::Protocol::https::connect');
