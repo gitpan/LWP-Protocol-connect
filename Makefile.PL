@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Provides HTTP/CONNECT proxy support for LWP::UserAgent",
   "AUTHOR" => "Markus Benning <me\@w3r3wolf.de>",
   "BUILD_REQUIRES" => {
+    "Test::Exception" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -32,7 +33,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "6.03",
+  "VERSION" => "6.04",
   "test" => {
     "TESTS" => "t/*.t"
   }

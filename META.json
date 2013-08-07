@@ -34,6 +34,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0",
             "Test::More" : "0"
          }
       }
@@ -50,6 +51,6 @@
          "web" : "https://github.com/benningm/LWP-Protocol-connect.git"
       }
    },
-   "version" : "6.03"
+   "version" : "6.04"
 }
 

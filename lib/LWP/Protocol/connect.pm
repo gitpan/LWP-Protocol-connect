@@ -6,7 +6,7 @@ use LWP::Protocol::https::connect::Socket;
 use warnings;
 use strict;
 
-our $VERSION = '6.03'; # VERSION
+our $VERSION = '6.04'; # VERSION
 
 require LWP::Protocol;
 our @ISA = qw(LWP::Protocol);
