@@ -13,5 +13,6 @@ lib/URI/connect.pm
 t/author-critic.t
 t/author-google.t
 t/empty-ca-bundle.crt
+t/proxy-auth.t
 t/release-pod-syntax.t
 t/use.t

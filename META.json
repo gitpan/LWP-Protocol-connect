@@ -21,11 +21,11 @@
       },
       "runtime" : {
          "requires" : {
+            "HTTP::Request" : "0",
             "IO::Socket::SSL" : "0",
             "LWP::Protocol" : "0",
             "LWP::Protocol::https" : "0",
-            "Net::HTTP" : "0",
-            "Net::HTTPS" : "0",
+            "LWP::UserAgent" : "0",
             "URI::http" : "0",
             "base" : "0",
             "strict" : "0",
@@ -35,7 +35,8 @@
       "test" : {
          "requires" : {
             "Test::Exception" : "0",
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "version" : "0"
          }
       }
    },
@@ -51,6 +52,6 @@
          "web" : "https://github.com/benningm/LWP-Protocol-connect.git"
       }
    },
-   "version" : "6.04"
+   "version" : "6.05"
 }
 

@@ -13,7 +13,8 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Markus Benning <me\@w3r3wolf.de>",
   "BUILD_REQUIRES" => {
     "Test::Exception" => 0,
-    "Test::More" => 0
+    "Test::More" => 0,
+    "version" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -23,17 +24,17 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "LWP::Protocol::connect",
   "PREREQ_PM" => {
+    "HTTP::Request" => 0,
     "IO::Socket::SSL" => 0,
     "LWP::Protocol" => 0,
     "LWP::Protocol::https" => 0,
-    "Net::HTTP" => 0,
-    "Net::HTTPS" => 0,
+    "LWP::UserAgent" => 0,
     "URI::http" => 0,
     "base" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "6.04",
+  "VERSION" => "6.05",
   "test" => {
     "TESTS" => "t/*.t"
   }

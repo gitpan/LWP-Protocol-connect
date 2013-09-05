@@ -1,9 +1,40 @@
 ==================================================
-Changes from 2012-08-07 00:00:00 +0000 to present.
+Changes from 2012-09-05 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 6.04 at 2013-08-07 11:54:54 +0000
+version 6.05 at 2013-09-05 10:17:32 +0000
+-----------------------------------------
+
+  Change: 28f5629c9e2d02d0ac50f923e3369506b5e7fd10
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-09-05 12:16:18 +0000
+
+    -skip proxy-auth test for ->credentials, wait for next LWP::UA
+    release 
+
+  Change: 13381cf4681cb405f2bb1af09449659ac04a452d
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-09-02 09:46:18 +0000
+
+    -mention proxy auth in POD docs 
+
+  Change: b6cc6e3f62fde606301ce4433bd0ae98560bee66
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-09-02 09:25:15 +0000
+
+    -added test script for proxy auth -use user agent of the request
+    (which has the ->credentials) -if userinfo is set just pass it thru 
+
+  Change: ccbed644c51fbd74bc284e3fa080c6f48876b577
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-08-30 13:30:41 +0000
+
+    -use LWP::UserAgent instead of NET::HTTP, because it handles
+    authentication 
+
+-----------------------------------------
+version 6.04 at 2013-08-07 11:54:18 +0000
 -----------------------------------------
 
   Change: 20609163168d1525a80827b6fbc52a26a342591b
