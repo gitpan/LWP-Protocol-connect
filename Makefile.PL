@@ -13,8 +13,7 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Markus Benning <me\@w3r3wolf.de>",
   "BUILD_REQUIRES" => {
     "Test::Exception" => 0,
-    "Test::More" => 0,
-    "version" => 0
+    "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -34,7 +33,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "6.05",
+  "VERSION" => "6.06",
   "test" => {
     "TESTS" => "t/*.t"
   }

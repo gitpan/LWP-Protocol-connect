@@ -12,7 +12,7 @@ lib/LWP/Protocol/https/connect/Socket.pm
 lib/URI/connect.pm
 t/author-critic.t
 t/author-google.t
+t/author-proxy-auth.t
 t/empty-ca-bundle.crt
-t/proxy-auth.t
 t/release-pod-syntax.t
 t/use.t
