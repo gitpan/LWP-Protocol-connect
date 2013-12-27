@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution LWP-Protocol-connect,
-version 6.06:
+version 6.07:
 
   Provides HTTP/CONNECT proxy support for LWP::UserAgent
 

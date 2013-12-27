@@ -26,6 +26,7 @@ my %WriteMakefileArgs = (
     "HTTP::Request" => 0,
     "IO::Socket::SSL" => 0,
     "LWP::Protocol" => 0,
+    "LWP::Protocol::http" => 0,
     "LWP::Protocol::https" => 0,
     "LWP::UserAgent" => 0,
     "URI::http" => 0,
@@ -33,7 +34,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "6.06",
+  "VERSION" => "6.07",
   "test" => {
     "TESTS" => "t/*.t"
   }

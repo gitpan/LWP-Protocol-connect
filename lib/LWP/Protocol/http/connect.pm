@@ -1,13 +1,13 @@
-package LWP::Protocol::https::connect;
+package LWP::Protocol::http::connect;
 
 use strict;
 use warnings;
 
 our $VERSION = '6.07'; # VERSION
 
-require LWP::Protocol::https;
-our @ISA = qw(LWP::Protocol::https);
-LWP::Protocol::implementor('https::connect' => 'LWP::Protocol::https::connect');
+require LWP::Protocol::http;
+our @ISA = qw(LWP::Protocol::http);
+LWP::Protocol::implementor('http::connect' => 'LWP::Protocol::http::connect');
 
 sub new {
     my $self = shift->SUPER::new(@_);
