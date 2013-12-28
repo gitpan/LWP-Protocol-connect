@@ -3,7 +3,7 @@ package LWP::Protocol::https::connect::Socket;
 use strict;
 use warnings;
 
-our $VERSION = '6.07'; # VERSION
+our $VERSION = '6.08'; # VERSION
 
 require LWP::Protocol::https;
 use IO::Socket::SSL;

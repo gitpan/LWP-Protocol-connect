@@ -28,4 +28,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=LWP-Protocol-connect
   repository: https://github.com/benningm/LWP-Protocol-connect
-version: 6.07
+version: 6.08

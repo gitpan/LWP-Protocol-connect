@@ -1,9 +1,39 @@
 ==================================================
-Changes from 2012-12-27 00:00:00 +0000 to present.
+Changes from 2012-12-28 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 6.07 at 2013-12-27 13:24:34 +0000
+version 6.08 at 2013-12-28 16:10:57 +0000
+-----------------------------------------
+
+  Change: eedee661025678e583f23023485dc950d18b79ba
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-12-28 17:09:29 +0000
+
+    -add a VERSION to URI::connect 
+
+  Change: c22429853360a64a12eca65a43e7836213c47422
+  Author: Markus Benning <me@w3r3wolf.de>
+  Date : 2013-12-28 08:04:35 +0000
+
+    Merge pull request #4 from olegwtf/master
+
+    prevent reconnection and do not change http proxy permanently 
+
+  Change: faa57b61956c688b3e06b2c98f0a43b25bb33b12
+  Author: Oleg G <verdrehung@gmail.com>
+  Date : 2013-12-28 14:13:41 +0000
+
+    we should restore current http proxy after request 
+
+  Change: 67b8b2972f1832014417d65da0788c364bc37338
+  Author: Oleg G <verdrehung@gmail.com>
+  Date : 2013-12-28 14:07:59 +0000
+
+    prevent reconnection for http scheme 
+
+-----------------------------------------
+version 6.07 at 2013-12-27 13:20:31 +0000
 -----------------------------------------
 
   Change: c32d6c33a9486b5294b0795f6c2bf6fb850ebc81
