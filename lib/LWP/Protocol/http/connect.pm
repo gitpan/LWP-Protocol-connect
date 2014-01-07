@@ -3,7 +3,7 @@ package LWP::Protocol::http::connect;
 use strict;
 use warnings;
 
-our $VERSION = '6.08'; # VERSION
+our $VERSION = '6.09'; # VERSION
 
 require LWP::Protocol::http;
 our @ISA = qw(LWP::Protocol::http);

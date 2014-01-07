@@ -3,7 +3,7 @@ package LWP::Protocol::https::connect::Socket;
 use strict;
 use warnings;
 
-our $VERSION = '6.08'; # VERSION
+our $VERSION = '6.09'; # VERSION
 
 require LWP::Protocol::https;
 use IO::Socket::SSL;
@@ -15,17 +15,16 @@ sub new {
     my %args = @_;
     my $conn = $class->_proxy_connect( \%args );
 
-    my $ssl = $class->new_from_fd($conn, %args);
-    if( ! $ssl ) {
+    unless ($class->start_SSL($conn, %args)) {
         my $status = 'error while setting up ssl connection';
         if( $@ ) {
-                $status .= " (".$@.")";
+            $status .= " (".$@.")";
         }
         die($status);
     }
-    $ssl->http_configure( \%args );
-    return $ssl;
+    
+    $conn->http_configure( \%args );
+    return $conn;
 }
 
 1;
-
